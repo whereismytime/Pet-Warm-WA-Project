@@ -1,0 +1,107 @@
+/* HERO */
+
+.events-hero-bg{
+  background-image:url("../img/banners/events.webp");
+}
+
+
+/* GRID */
+
+.events-grid{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+
+
+/* CARD (flexible) */
+
+.event-card{
+  flex:1 1 320px;
+  max-width:100%;
+
+  border:1px solid rgba(0,0,0,0.06);
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 10px 26px rgba(0,0,0,0.08);
+  padding:16px 16px;
+}
+
+.event-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+
+/* CHIP */
+
+.event-chip{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+
+  background:rgba(179,107,44,0.12);
+  color:#9a5c26;
+  border:1px solid rgba(179,107,44,0.16);
+
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:0.02em;
+}
+
+.event-date{
+  font-size:12px;
+  font-weight:800;
+  color:#6a6a6a;
+}
+
+.event-title{
+  margin:0 0 8px 0;
+  font-family:"Josefin Sans", Arial, sans-serif;
+  font-weight:700;
+  font-size:22px;
+  line-height:1.15;
+  color:#121a2f;
+}
+
+.event-text{
+  margin:0 0 12px 0;
+  color:#2a2f3a;
+  opacity:0.92;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.event-meta{
+  display:flex;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.event-meta-item{
+  font-size:12px;
+  font-weight:800;
+  color:#4b4b4b;
+  opacity:0.9;
+}
+
+.event-link{
+  display:inline-block;
+  text-decoration:none;
+  font-weight:900;
+  color:#121a2f;
+}
+
+.event-link:hover,
+.event-link:focus{
+  text-decoration:underline;
+}
+
+
+/* CTA */
+
+.events-cta{ margin-top:24px; }

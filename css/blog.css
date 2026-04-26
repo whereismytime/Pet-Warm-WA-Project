@@ -1,0 +1,148 @@
+.blog-head{ 
+  margin:8px 0 18px 0; 
+}
+
+.blog-title{
+  margin:0 0 8px 0;
+  font-family:"Josefin Sans", Arial, sans-serif;
+  font-weight:700;
+  font-size:38px;
+  color:#121a2f;
+}
+
+.blog-subtitle{
+  margin:0;
+  max-width:780px;
+  color:#2a2f3a;
+  opacity:0.90;
+  font-size:15px;
+  line-height:1.6;
+}
+
+
+/* GRID */
+
+.blog-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:18px;
+  margin-top:14px;
+}
+
+
+/* CARD (flexible) */
+
+.post-card{
+  flex:1 1 320px;
+  max-width:100%;
+
+  border:1px solid rgba(0,0,0,0.06);
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 10px 26px rgba(0,0,0,0.08);
+  overflow:hidden;
+
+  display:flex;
+  flex-direction:column;
+  min-height:460px;
+}
+
+.post-link{
+  display:block;
+  text-decoration:none;
+}
+
+.post-img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  display:block;
+}
+
+.post-body{
+  padding:14px 14px 16px 14px;
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+
+.post-meta{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+
+/* TAG */
+
+.post-tag{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+
+  background:rgba(179,107,44,0.12);
+  color:#9a5c26;
+  border:1px solid rgba(179,107,44,0.16);
+
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:0.02em;
+}
+
+.post-date{
+  font-size:12px;
+  font-weight:800;
+  color:#6a6a6a;
+}
+
+.post-title{
+  margin:0 0 8px 0;
+  font-family:"Josefin Sans", Arial, sans-serif;
+  font-weight:700;
+  font-size:22px;
+  line-height:1.15;
+  color:#121a2f;
+}
+
+.post-title-link{
+  color:inherit;
+  text-decoration:none;
+}
+
+.post-title-link:hover,
+.post-title-link:focus{
+  text-decoration:underline;
+}
+
+.post-excerpt{
+  margin:0;
+  color:#2a2f3a;
+  opacity:0.92;
+  font-size:14px;
+  line-height:1.55;
+
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3;
+  overflow:hidden;
+}
+
+.post-read{
+  margin-top:auto;
+  padding-top:12px;
+  display:inline-block;
+  text-decoration:none;
+  font-weight:900;
+  color:#121a2f;
+}
+
+.post-read:hover,
+.post-read:focus{
+  text-decoration:underline;
+}
+
+
+/* CTA */
+
+.blog-cta{ margin-top:10px; }

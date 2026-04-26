@@ -1,0 +1,115 @@
+/* Services */
+
+.services-hero-dogs{ background-image:url("../img/banners/dog.webp"); }
+.services-hero-cats{ background-image:url("../img/banners/cat.webp"); }
+.services-hero-mix{ background-image:url("../img/banners/dog-and-cat.webp"); }
+.services-hero-alt{ background-image:url("../img/banners/hero-dog-2.webp"); }
+
+.services-section{ margin-top:26px; }
+
+.services-section-title{
+  margin:0 0 14px 0;
+  font-family:"Josefin Sans", Arial, sans-serif;
+  font-weight:700;
+  font-size:28px;
+  color:#121a2f;
+}
+
+.svc-card{
+  border-radius:20px;
+  padding:22px 22px 18px 22px;
+  border:1px solid rgba(0,0,0,0.06);
+  box-shadow:0 10px 26px rgba(0,0,0,0.08);
+  background:#fff;
+  margin-bottom:18px;
+}
+
+.svc-dogs{ background:#f3faf6; }
+.svc-cats{ background:#fbf6fb; }
+.svc-extra{ background:#fff7f1; }
+
+.svc-card-head{ margin-bottom:14px; }
+
+.svc-card-title{
+  margin:0 0 6px 0;
+  font-family:"Josefin Sans", Arial, sans-serif;
+  font-weight:700;
+  font-size:24px;
+  color:#121a2f;
+}
+
+.svc-card-sub{
+  margin:0;
+  max-width:860px;
+  color:#2a2f3a;
+  opacity:0.92;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.svc-grid{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+}
+
+.svc-col{
+  flex:1 1 360px;
+  max-width:100%;
+}
+
+.svc-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.svc-item{
+  padding:12px 12px;
+  border-radius:14px;
+  background:rgba(255,255,255,0.86);
+  border:1px solid rgba(0,0,0,0.05);
+  margin-bottom:10px;
+}
+
+.svc-name{
+  display:block;
+  font-weight:900;
+  color:#1d264b;
+  margin-bottom:2px;
+}
+
+.svc-note{
+  display:block;
+  font-size:13px;
+  color:#4b4b4b;
+  opacity:0.90;
+}
+
+.svc-card-foot{
+  margin-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+}
+
+.svc-price{
+  font-size:14px;
+  color:#121a2f;
+}
+
+.svc-price strong{ color:#b36b2c; }
+
+.svc-link{
+  text-decoration:none;
+  font-weight:900;
+  color:#121a2f;
+}
+
+.svc-link:hover,
+.svc-link:focus{
+  text-decoration:underline;
+}
+
+.services-cta{ margin-top:24px; }

@@ -1,0 +1,80 @@
+/* HERO */
+
+.contact-hero-bg{
+  background-image:url("../img/banners/contact.webp");
+}
+
+.contact-hero-card{
+  min-height:420px;
+}
+
+
+/* LAYOUT */
+
+.contact-layout{
+  display:flex;
+  gap:18px;
+  margin-top:18px;
+  flex-wrap:wrap;
+}
+
+.contact-left{ flex:1 1 520px; }
+.contact-right{ flex:1 1 280px; }
+
+.contact-actions{
+  margin-top:10px;
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+
+/* CARD */
+
+.contact-card{
+  border:1px solid rgba(0,0,0,0.06);
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 10px 26px rgba(0,0,0,0.08);
+  padding:16px 16px;
+}
+
+.contact-line{
+  margin:0 0 10px 0;
+  color:#2a2f3a;
+  opacity:0.92;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.contact-line a{
+  text-decoration:none;
+  font-weight:900;
+  color:#121a2f;
+}
+
+.contact-line a:hover,
+.contact-line a:focus{
+  text-decoration:underline;
+}
+
+.contact-mini{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:10px;
+
+  font-size:13px;
+  font-weight:800;
+  color:#1d264b;
+}
+
+.contact-icon{
+  width:28px;
+  height:28px;
+  display:block;
+}
+
+.contact-social{
+  margin-top:14px;
+}
