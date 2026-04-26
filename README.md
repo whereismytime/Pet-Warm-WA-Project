@@ -4,9 +4,19 @@ This project is a static website for a grooming studio called **Pet Warm**, base
 
 The website was created as part of a web authoring assignment using HTML and CSS. The main idea was to build a simple, clean and easy-to-use website without using JavaScript or any external framework.
 
+## Live Website
+
+The website is published with GitHub Pages:
+
+[Open Pet Warm Website](https://whereismytime.github.io/Pet-Warm-WA-Project/index.html)
+
+## Home Page Preview
+
+![Pet Warm Home Page](img/github/website.png)
+
 ## Project Overview
 
-Pet Warm is a small grooming website for dog and cat owners. It gives visitors basic information about services, prices, offers, team members, events and contact details.
+Pet Warm is a small grooming website for dog and cat owners. It gives visitors basic information about services, offers, team members, events and contact details.
 
 The website focuses on:
 
@@ -49,6 +59,7 @@ The website focuses on:
 - CSS3
 - Visual Studio Code
 - Git and GitHub
+- GitHub Pages
 - FileZilla for uploading the project to hosting
 
 ## Project Structure
@@ -66,22 +77,7 @@ Pet Warm/
 ├── contact.html
 ├── thankyou.html
 ├── css/
-│   ├── style.css
-│   ├── services.css
-│   ├── offers.css
-│   ├── masters.css
-│   ├── blog.css
-│   ├── events.css
-│   ├── contact.css
-│   └── thankyou.css
 ├── img/
-│   ├── banners/
-│   ├── blog/
-│   ├── icons/
-│   ├── logo/
-│   ├── products/
-│   ├── social-media/
-│   └── team/
 └── privacy-policy/
 ```
 
@@ -92,4 +88,3 @@ Pet Warm/
 3. Open `index.html` in a web browser.
 
 No installation is required.
-
